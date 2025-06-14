@@ -1093,10 +1093,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
   }
-  .form-actions {
-    flex-direction: row;
-    justify-content: flex-end;
-  }
   .back-to-home-button,
   .add-to-calendar-button {
     width: auto;
