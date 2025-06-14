@@ -543,6 +543,7 @@ body {
   color: #555;
 }
 
+/* RESERVATION PAGE */
 .reservation-form {
   max-width: 600px;
   margin: 2rem auto;
@@ -576,14 +577,14 @@ body {
   border: 1px solid var(--border-color);
   border-radius: 5px;
   font-size: 1rem;
-  box-sizing: border-box; /* Include padding in width */
+  box-sizing: border-box;
 }
 
 .reservation-form textarea {
-  resize: vertical; /* Allow vertical resizing */
+  resize: vertical;
 }
 
-/* Available Times Section */
+
 .available-times-section {
   margin-top: 2rem;
   padding-top: 1.5rem;
@@ -599,14 +600,14 @@ body {
 
 .available-times-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Auto-fit columns for responsiveness */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
 .time-slot-button {
-  background-color: #e0e0e0; /* Default light gray */
+  background-color: #e0e0e0;
   color: var(--text-dark);
   padding: 0.8rem 1rem;
   border: 1px solid #ccc;
@@ -615,7 +616,7 @@ body {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
-  width: 100%; /* Make buttons fill grid cell */
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -625,7 +626,7 @@ body {
 }
 
 .time-slot-button.selected {
-  background-color: var(--primary-yellow); /* Yellow when selected */
+  background-color: var(--primary-yellow);
   color: var(--text-dark);
   border-color: #e0b300;
   font-weight: 700;
@@ -638,7 +639,6 @@ body {
   border-style: dashed;
 }
 
-/* Next Step & Book Reservation Buttons */
 .reserve-button.next-step-button,
 .reserve-button.book-reservation-button {
   background-color: var(--primary-yellow);
@@ -668,7 +668,7 @@ body {
   cursor: not-allowed;
 }
 
-/* === Confirmation Page Styles === */
+/* === Confirmation Page === */
 .confirmation-page {
   max-width: 600px;
   margin: 2rem auto;
@@ -687,7 +687,7 @@ body {
 }
 
 .confirmation-icon {
-  width: 80px; /* Size of the tick icon */
+  width: 80px;
   height: 80px;
   margin-bottom: 1rem;
 }
@@ -725,7 +725,7 @@ body {
 
 .confirmation-actions {
   display: flex;
-  flex-direction: column; /* Stack buttons vertically on mobile */
+  flex-direction: column;
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -765,6 +765,7 @@ body {
 }
 
 
+/* ORDER ONLNIE PAGE */
 .order-options {
   display: flex;
   justify-content: center;
@@ -842,6 +843,8 @@ body {
 .add-to-cart-button:hover {
   background-color: #388E3C;
 }
+
+
 
 /* === Responsive === */
 @media (max-width: 900px) {
