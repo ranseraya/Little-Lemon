@@ -21,7 +21,7 @@ function App() {
         {activePage === 'home' && <Home />}
         {activePage === 'about' && <About />}
         {activePage === 'menu' && <Menu />}
-        {activePage === 'reservations' && <Reservations />}
+        {activePage === 'reservations' && <Reservations navigateTo={navigateTo}/>}
         {activePage === 'order-online' && <OrderOnline />}
         {activePage === 'login' && <Login />}
       </main>
